@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <link rel="icon" type="image/x.icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb38jT79CNAl8C1EKYMW7MG4phOndTyH0FzOwbE6IOvw&s=10">
+    <!-- css -->
+     <link rel="stylesheet" href="./style.css">
+     <!-- fontawesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playwrite+CA+Guides&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+     <nav class="navbar">
+        <a class="brand" href="">
+            <i class="fa-solid fa-couch"></i>
+              <span class="brandname"> Wood Furniture</span> 
+       </a>
+       <!-- checkbox -->
+        <input type="checkbox" id="check">
+        <!-- label includes 2 icons -->
+         <label for="check" class="icons">
+            <i id="menuicon" class="fa-solid fa-bars"></i>
+            <i id="cancelicon" class="fa-regular fa-circle-xmark"></i>
+         </label>
+       <!-- links -->
+        <ul class="navlinks">
+            <li class="links"><a href="#home" class="link">Home</a></li>
+            <li class="links"><a href="#products" class="link">Product</a></li>
+            <li class="links"> <a href="#banner" class="link">About</a></li>
+            <li class="links"><a href="#content" class="link">Contact</a></li>
+
+        </ul>
+     </nav>
+     <!-- hero section -->
+      <section id="home" class="hero">
+        <!-- text content -->
+         <div class="herotext">
+            <h1 id="herotitle">Modern Furniture For Your Home</h1>
+            <p id="heropara">Discover Stylish and comfortable furniture for your living room, bedroom and office.</p>
+            <button class="herobutton">Shop Now</button>
+         </div>
+         <!-- image -->
+          <div class="heroimage">
+            <img id="furnitureimage" src="./furniture/fur1.png" alt="No Image">
+          </div>
+          </section>
+          <!-- product section -->
+           <section id="products" class="products">
+            <!-- heading -->
+             <h2 class="producthead">Our Products</h2>
+             <!-- product container -->
+              <div class="productcontainer">
+                <div class="card">
+                    <img class="cardimg" src="./furniture/card1.jpg" alt="no image">
+                    <h3 class="productname">Sofa</h3>
+                    <p class="price">$200</p>
+                    <button class="productbutton">Buy Now</button>
+                </div>
+                <!-- card2 -->
+                 <div class="card">
+                    <img class="cardimg" src="./furniture/card2.png" alt="no image">
+                    <h3 class="productname">Chair</h3>
+                    <p class="price">$250</p>
+                    <button class="productbutton">Buy Now</button>
+                 </div>
+                 <!-- card3 -->
+                  <div class="card">
+                     <img class="cardimg" src="./furniture/card3.png" alt="no image">
+                     <h3 class="productname">Bed</h3>
+                     <p class="price">$300</p>
+                     <button class="productbutton">Buy Now</button>
+                  </div>
+              </div>
+           </section>
+           <!-- banner -->
+            <section id="banner" class="banner">
+               <!-- heading -->
+                <h2 class="bannerhead">About Us</h2>
+                <p class="bannerpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aliquam quis suscipit eveniet laudantium maxime, earum accusantium animi neque vero corrupti delectus dicta tempora iusto, ducimus praesentium nulla architecto obcaecati.
+                Dolore ratione explicabo rerum? Veniam, recusandae! Quo architecto incidunt deserunt ipsam eligendi ab pariatur assumenda, temporibus quod facere provident maxime earum ut odit. Amet facere assumenda libero consequatur. Maiores, eos?
+                Nobis assumenda non ullam eveniet id suscipit inventore aut sequi pariatur velit? Error eligendi architecto quas suscipit ut cupiditate aliquam itaque commodi reiciendis laudantium culpa, corrupti sint tenetur odio modi!</p>
+                <button class="herobutton bannerbutton"> Let's Talk</button>
+
+            </section>
+            <!-- footer -->
+             <section id="content" class="content">
+               
+                  <div class="cnontenttext">
+                     <h3 class="contenthead">Contact Us</h3>
+                     <h4 class="contentph">+1947473873</h4>
+                     <p class="contentmail">info@mail</p>
+                     <!-- icons -->
+                      <div class="socialicons">
+                        <a class="smlink" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="smlink" href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="smlink" href="https://in.pinterest.com/" target="_blank"><i class="fa-brands fa-square-pinterest"></i></a>
+                      </div>
+                  </div>
+                  <!-- subscribe -->
+                   <div class="subscribe">
+                     <h3 class="subscribehead">Join Our Mail List</h3>
+                     <div class="box">
+                        <input type="text" placeholder="Email" class="subinput">
+                        <button class="herobutton subbutton">Subscribe</button>
+                     </div>
+                   </div>
+             </section>
+             <footer class="footer">
+               <p> &copy; Designed by Luminar Technolab,All Rights Reserved 2026 </p>
+             </footer>
+
+      
+    
+</body>
+</html>
