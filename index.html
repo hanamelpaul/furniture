@@ -12,6 +12,8 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playwrite+CA+Guides&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!-- aos animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- navbar -->
@@ -45,7 +47,7 @@
             <button class="herobutton">Shop Now</button>
          </div>
          <!-- image -->
-          <div class="heroimage">
+          <div data-aos="flip-down" class="heroimage">
             <img id="furnitureimage" src="./furniture/fur1.png" alt="No Image">
           </div>
           </section>
@@ -117,4 +119,9 @@
       
     
 </body>
+<!-- aos script -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+</script>
 </html>
